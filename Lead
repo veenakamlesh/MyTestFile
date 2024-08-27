@@ -1,0 +1,7 @@
+trigger LeadTrigger on Lead (after insert, after update) {
+    /*Set<Id> leadIds = new Set<Id>();
+    for (Lead lead : Trigger.new) {
+        leadIds.add(lead.Id);
+    }
+    EmailValidationService.validateEmail(leadIds);*/
+}
